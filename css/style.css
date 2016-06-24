@@ -1,0 +1,151 @@
+body {
+  margin-bottom: 500px;
+}
+
+@media (max-width: 1280px) {
+    body {
+        background: white;
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        background: purple;
+    }
+}
+
+@media (max-width: 1000px) {
+    section {
+        background: black;
+        font-color: white;
+    }
+}
+
+@media (max-width: 750px) {
+    body {
+        background: black;
+    }
+}
+
+@media (max-width: 750px) {
+    section {
+        background: purple;
+    }
+}
+
+
+li{
+	font-style: italic;
+	font-family: verdana;
+}
+
+.Joker00 {
+    position: fixed;
+    top: 23.0vh;
+    left: 43vw;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 150px;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    background: url('joker.jpeg') center no-repeat;
+    background-size: cover;
+    z-index: 40;
+}
+
+
+.batman{
+	background: black;
+	font-color: white;
+	font-weight: 400px;
+	
+}
+.joker{
+	background: purple;
+	font-color: white;
+
+}
+
+.header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 70px;
+  background-color: purple;
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: purple;
+  width: 100%;
+
+
+}
+
+
+.container {
+  position: relative;
+}
+
+.imagenes{
+padding-top: 45px;	
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+
+  justify-content: center;
+ 
+  flex-direction: row;
+
+  flex-flow: row wrap;
+ 
+}
+
+
+.barra{
+  position: absolute;
+  left: 0px;
+  width: 200px;
+  z-index: 10;
+  background-color: yellowgreen;
+  padding-right: 1150px;
+  
+}
+
+
+
+.risa1 {
+  margin-top: 25%;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: red;
+  font-size: 3.5em;
+  font-weight: 600;
+}
+
+.img-circle{
+
+top: 20%	
+  width: 396px;
+  height: 250px;
+  background: url('BatmanLogo.jpg') center no-repeat;
+  background-size: cover;
+  z-index: 300;
+  
+}	
+
+section{
+font-size: 20px;
+font-color: gray;
+	
+}
+
+
